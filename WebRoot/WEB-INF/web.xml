@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BaseServlet</servlet-name>
+    <servlet-class>cn.edu.hbpu.edu.util.BaseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>cn.edu.hbpu.edu.servlet.AdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentServlet</servlet-name>
+    <servlet-class>cn.edu.hbpu.edu.servlet.StudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SubjectServlet</servlet-name>
+    <servlet-class>cn.edu.hbpu.edu.servlet.SubjectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CourseServlet</servlet-name>
+    <servlet-class>cn.edu.hbpu.edu.servlet.CourseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ContractinServlet</servlet-name>
+    <servlet-class>cn.edu.hbpu.edu.servlet.ContractinServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ClassInfoServlet</servlet-name>
+    <servlet-class>cn.edu.hbpu.edu.servlet.ClassInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentMemberServlet</servlet-name>
+    <servlet-class>cn.edu.hbpu.edu.servlet.StudentMemberServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BaseServlet</servlet-name>
+    <url-pattern>/BaseServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/AdminServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentServlet</servlet-name>
+    <url-pattern>/StudentServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SubjectServlet</servlet-name>
+    <url-pattern>/SubjectServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CourseServlet</servlet-name>
+    <url-pattern>/CourseServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContractinServlet</servlet-name>
+    <url-pattern>/ContractinServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClassInfoServlet</servlet-name>
+    <url-pattern>/ClassInfoServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentMemberServlet</servlet-name>
+    <url-pattern>/StudentMemberServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>TeacClassInfoServlet</servlet-name>
+    <servlet-class>cn.edu.hbpu.edu.servlet.TeacClassInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentCourseServlet</servlet-name>
+    <servlet-class>cn.edu.hbpu.edu.servlet.StudentCourseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PageTransServlet</servlet-name>
+    <servlet-class>cn.edu.hbpu.edu.servlet.PageTransServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ScoreServlet</servlet-name>
+    <servlet-class>cn.edu.hbpu.edu.servlet.ScoreServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChartServlet</servlet-name>
+    <servlet-class>cn.edu.hbpu.edu.servlet.ChartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PieServlet</servlet-name>
+    <servlet-class>cn.edu.hbpu.edu.servlet.PieServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TeacClassInfoServlet</servlet-name>
+    <url-pattern>/TeacClassInfoServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentCourseServlet</servlet-name>
+    <url-pattern>/StudentCourseServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PageTransServlet</servlet-name>
+    <url-pattern>/PageTransServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ScoreServlet</servlet-name>
+    <url-pattern>/ScoreServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChartServlet</servlet-name>
+    <url-pattern>/ChartServlet.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PieServlet</servlet-name>
+    <url-pattern>/PieServlet.action</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <!-- V1.2 -->
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CurriculumServlet</servlet-name>
+    <servlet-class>cn.edu.hbpu.edu.servlet.CurriculumServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CurriculumServlet</servlet-name>
+    <url-pattern>/CurriculumServlet.action</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StaffServlet</servlet-name>
+    <servlet-class>cn.edu.hbpu.edu.servlet.StaffServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StaffServlet</servlet-name>
+    <url-pattern>/StaffServlet.action</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StaffWageServlet</servlet-name>
+    <servlet-class>cn.edu.hbpu.edu.servlet.StaffWageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StaffWageServlet</servlet-name>
+    <url-pattern>/StaffWageServlet.action</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TeacherServlet</servlet-name>
+    <servlet-class>cn.edu.hbpu.edu.servlet.TeacherServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TeacherServlet</servlet-name>
+    <url-pattern>/TeacherServlet.action</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TeacherWageServlet</servlet-name>
+    <servlet-class>cn.edu.hbpu.edu.servlet.TeacherWageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TeacherWageServlet</servlet-name>
+    <url-pattern>/TeacherWageServlet.action</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  <filter>
+    <filter-name>EncodingFilter</filter-name>
+    <filter-class>cn.edu.hbpu.edu.filter.EncodingFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>EncodingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <filter>
+    <filter-name>SecurityFilter</filter-name>
+    <filter-class>cn.edu.hbpu.edu.filter.SecurityFilter</filter-class>
+    <init-param>
+      <param-name>pass</param-name>
+      <param-value>login.jsp</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>SecurityFilter</filter-name>
+    <url-pattern>*.jsp</url-pattern>
+  </filter-mapping>
+  
+  <!-- 错误页面 -->
+  <error-page>
+  	<error-code>404</error-code>
+  	<location>/404.jsp</location>
+  </error-page>
+</web-app>
