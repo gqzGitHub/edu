@@ -35,10 +35,6 @@ CREATE TABLE `admininfo`  (
 -- Records of admininfo
 -- ----------------------------
 INSERT INTO `admininfo` VALUES (1, 'admin', '13995971234', 'gqzdev@gmal.com', 'ganquanzhong', 1);
-INSERT INTO `admininfo` VALUES (2, 'gqz', '13995976182', 'gqzdev@gmal.com', 'admin', 1);
-INSERT INTO `admininfo` VALUES (3, 'jiangjinxing', '18327862749', '18327862749@163.com', '123456', 1);
-INSERT INTO `admininfo` VALUES (4, 'test', '15571398101', '971785418@qq.com', 'test', 1);
-INSERT INTO `admininfo` VALUES (5, '甘全中', '13995976182', 'qzhong96@gmal.com', 'ganquanzhong', 1);
 
 -- ----------------------------
 -- Table structure for classinfo
