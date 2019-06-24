@@ -8,8 +8,6 @@ import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 
-
-import cn.edu.hbpu.edu.bean.Course;
 import cn.edu.hbpu.edu.bean.PageBean;
 import cn.edu.hbpu.edu.bean.Score;
 import cn.edu.hbpu.edu.db.DBCPUtils;

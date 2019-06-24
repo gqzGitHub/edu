@@ -190,7 +190,7 @@
     <!-- 底部开始 -->
     <div class="footer">
     	<center>
-	        <div class="copyright">版权所有© 2018~2020  &nbsp; 湖北理工学院<a href="http://www.hbpu.edu.cn/" target="_blank">&nbsp;2018计算机大赛</a> </div>  
+	        <div class="copyright">版权所有© 2018~2020  &nbsp; ForFuture<a href="http://www.ganquanzhong.top/" target="_blank">&nbsp;2018计算机大赛</a> </div>  
     	</center>
     </div>
     <!-- 底部结束 -->

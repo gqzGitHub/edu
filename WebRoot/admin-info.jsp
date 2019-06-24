@@ -58,7 +58,7 @@
                   <span class="x-red">*</span>旧密码
               </label>
               <div class="layui-input-inline">
-                  <input type="password" id="oldpass" name="oldpass" required="" 
+                  <input type="password" id="oldpass" name="oldpass" required="" lay-verify="required"
                   autocomplete="off" class="layui-input" onblur="checkPass(${sessionScope.login.adminid })">
               </div>
           </div>
